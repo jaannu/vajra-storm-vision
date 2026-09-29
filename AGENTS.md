@@ -8,3 +8,8 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Project Architecture
+
+- Keep VajraDrishti as a single-scroll technical presentation at `/`; its section anchors support judge-friendly linear storytelling and a live demo jump.
+- Use semantic dark meteorological tokens from `src/styles.css`; cyan denotes intelligence and orange denotes hazards for consistent operational meaning.
