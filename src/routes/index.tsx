@@ -19,7 +19,6 @@ import {
   Satellite,
   ShieldAlert,
   Sprout,
-  TrainFront,
   TriangleAlert,
   WifiOff,
   Zap,
