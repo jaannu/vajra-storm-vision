@@ -3,7 +3,6 @@ import {
   ArrowDown,
   ArrowRight,
   BrainCircuit,
-  Broadcast,
   Check,
   ChevronRight,
   CloudLightning,
@@ -16,6 +15,7 @@ import {
   Network,
   Plane,
   Radio,
+  RadioTower,
   Satellite,
   ShieldAlert,
   Sprout,
@@ -118,7 +118,7 @@ const innovations = [
   },
   {
     number: "06",
-    icon: Broadcast,
+    icon: RadioTower,
     title: "Multi-Channel Alerting",
     copy: "Delivers warnings through SMS, WhatsApp API, LoRa mesh, and an on-site siren in parallel.",
     tag: "Last-mile ready",
@@ -319,7 +319,7 @@ function Index() {
           <FlowArrow label="MODEL" />
           <ArchitectureStage number="02" icon={Cpu} label="Edge deployment" title="Compress without compromise" items={["Knowledge Distillation", "INT8 Quantization", "TensorRT / ONNX"]} />
           <FlowArrow label="INFERENCE" />
-          <ArchitectureStage number="03" icon={Broadcast} label="Alert engine" title="Reach every last mile" items={["WebSocket Dashboard", "REST API", "GPIO Siren / LoRa"]} />
+          <ArchitectureStage number="03" icon={RadioTower} label="Alert engine" title="Reach every last mile" items={["WebSocket Dashboard", "REST API", "GPIO Siren / LoRa"]} />
         </div>
         <div className="mt-8 grid border border-border lg:grid-cols-[1fr_1.4fr]">
           <div className="p-6 md:p-8"><p className="section-kicker">Explainability trace · Cell MH-042</p><h3 className="mt-3 font-display text-2xl font-bold">Why this alert triggered</h3><p className="mt-3 text-sm leading-relaxed text-muted-foreground">Every operational warning includes a transparent feature contribution breakdown for human verification.</p></div>
